@@ -1,0 +1,145 @@
+.ls-logo{
+        top: 1.2em;
+        width: 160px;
+        position:absolute;
+        left:0;
+        padding: 0 9.5em;
+        cursor: pointer;
+        
+    }
+    
+.login-screen{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100dvh;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center center;
+    overflow-x: hidden;
+   
+}
+.ls-btn{
+    position: fixed;
+    right: 12.3em;
+    top: 1.4em;
+    cursor: pointer;
+    color:white;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding: 0.4em 1.4em;
+    margin-right: 1rem;
+    font-size: 1em;
+    background: #e50914;
+    transition: all 0.3s;
+}
+.ls-btn:hover{
+    background: #b2060f; 
+}
+.ls-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    left:0;
+    right:0;
+   
+    top: 30%;
+    
+    
+}
+.ls-body > h1{
+    padding:0.5em 1em;
+    font-size: 2.7em;
+    font-weight: 900;
+}
+.ls-body>h2{
+   font-weight: 200;
+   padding:0em 1.2em;
+   padding-bottom: 0.5em;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ls-input{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 1em;
+    
+}
+.ls-input input{
+    padding: 0.5em 1.5em;
+    outline-width: 0;
+    height: 2em;
+    width: max-content;
+    background: rgba(0, 0, 0, 0.468);
+    border-radius: 0.5em;
+    color: white;
+}
+.gs-btn{
+    cursor: pointer;
+    color:white;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding: 0.4em 1.4em;
+    margin-right: 1rem;
+    font-size: 1em;
+    background: #e50914;
+    transition: all 0.3s;
+}
+.gs-btn:hover{
+    background: #b2060f; 
+}
+
+
+
+@media(max-width:700px){
+    .ls-logo{
+        top: 1.2em;
+        width: 130px;
+        position:absolute;
+        left:0;
+        padding: 0 1.5em;
+        
+    }
+    .ls-btn{
+        position: fixed;
+        right: 1.3em;
+        border-radius: 1vw;
+        
+    }
+    .ls-body > h1{
+        padding:1em;
+        font-size: 2em;
+        font-weight: 900;
+    }
+    .ls-input{
+        
+        padding: 1em;
+        
+    }
+    .ls-input input{
+        padding: 0.5em 1.5em;
+        outline-width: 0;
+        width: max-content;
+    }
+    .gs-btn{
+        cursor: pointer;
+        color:white;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        border-radius: 2vw;
+        padding: 0.4em 1.4em;
+        margin-right: 1rem;
+        font-size: 0.9em;
+        background: #e50914;
+        transition: all 0.3s;
+    }
+
+}

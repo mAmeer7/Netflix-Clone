@@ -1,0 +1,55 @@
+#logo{
+    top: 1.2em;
+    width: 160px;
+    position:fixed;
+    cursor: pointer;
+}
+#avatar{
+    top: 1.2em;
+    position: fixed;
+    width: 50px;
+    right: 9.5em;
+    cursor: pointer;
+}
+.nav{
+    position: fixed;
+    top:0;
+    padding: 1.9em;
+    width: 100%;
+    height: 1.5em;
+    z-index: 1;
+    
+
+    /* Animation */
+
+    transition-timing-function: ease-in;
+    transition:all 0.5s;
+}
+.nav_content{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9.5rem;
+}
+.nav_black{
+    background: rgba(0, 0, 0, 0.45);
+    
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 20px 30px 1px;
+}
+@media (max-width:540px){
+    #logo{
+        top: 1.2em;
+        width: 100px;
+        position:fixed;
+        cursor: pointer;
+        left: 1em;
+    }
+    #avatar{
+        top: 1.2em;
+        position: fixed;
+        width: 30px;
+        right: 1em;
+        cursor: pointer;
+}
+}
+
